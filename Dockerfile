@@ -13,8 +13,7 @@ RUN apt-get update -y && \
     cd pytgcalls/ && \
     npm install && \
     npm run prepare && \
-    cd pytgcalls/js && \
-    npm install && \
+    
     cd ../../ && \
     pip3 install -r requirements.txt && \
     cd /music3 && \
