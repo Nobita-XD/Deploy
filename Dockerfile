@@ -14,8 +14,7 @@ RUN apt-get update -y && \
     npm install && \
     npm run prepare && \
     
-    cd ../../ && \
-    pip3 install -r requirements.txt && \
+    
     cd /music3 && \
     pip3 install -U -r requirements.txt
 
